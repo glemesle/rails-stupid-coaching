@@ -1,0 +1,15 @@
+<h1>Chat</h1>
+<hr>
+<div class="container">
+<div class="question">
+  <p><%= @question %></p>
+  <p class="italic">- You </p>
+</div>
+<div class="answer">
+  <p><%= @answer %></p>
+  <p class="italic">- Your coach </p>
+</div>
+</div>
+<hr>
+
+<%= link_to "Ask a new question", ask_path  %>
